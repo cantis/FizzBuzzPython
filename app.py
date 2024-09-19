@@ -18,7 +18,8 @@ def main():
 
 if __name__ == '__main__':
     result = main()
-    line_no = 0
-    for value in result:
-        line_no += 1
-        print(f'{line_no:02d} {value}')
+    for i in range(len(result)):
+        print(f'{i:02d} {result[i]}')
+
+    # it's more complex but you could use a comprehension
+    # print('\n'.join(f'{i:02d} {result[i]}' for i in range(len(result)))
