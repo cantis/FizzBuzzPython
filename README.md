@@ -11,6 +11,7 @@ If you are just getting into python set your virtual environment:
 Note: This is powershell on Windows not bash.
 
 ```powershell
+# Create a virtual environment
 PS > python -m venv .venv
 
 # Activate the virtual environment
