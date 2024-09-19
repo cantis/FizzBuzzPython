@@ -21,4 +21,4 @@ if __name__ == '__main__':
     line_no = 0
     for value in result:
         line_no += 1
-        print(f'{line_no:02d} {value}')P
+        print(f'{line_no:02d} {value}')
